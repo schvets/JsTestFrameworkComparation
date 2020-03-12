@@ -1,0 +1,25 @@
+var email = "tafuser.sc001@gmail.com";
+var password = "fglstaf1"
+var recepientEmail = "schvets.a@gmail.com"
+var emailSubject = "Test subject Test subject Test subject Test subject"
+var emailBody = "Test body Test body Test body Test body Test body Test body Test body Test body"
+
+var baseUrl = 'https://mail.google.com';
+var gmailTitle = 'Gmail';
+var inboxTitle = 'Inbox';
+
+var emailLocator = "input[type='email']";
+var passwordLocator = "input[type='password']";
+var profileNameLocator = "//a[contains(@aria-label,'Google Account')]";
+var composeButtonLocator = "//div[text()='Compose']";
+var recepientLocator = "to";
+var subjectLocator = "subjectbox";
+var bodyLocator = "//div[@aria-label='Message Body']";
+var sendButton = "//div[contains(@aria-label,'Send') and @role='button']";
+var sentMessagePopUpLocator = "//span[contains(text(),'Message sent')]";
+var sentMessageFolderLocator = "//a[@title='Sent']";
+var mailRow = "//tr//*[contains(text(),'schvets')]/ancestor::tr";
+var sentMailSubject = "//div[@role='main']//div/h2";
+var showRecepientButtonLocator = "//div[@data-tooltip='Show details']";
+var sentMailBody = "//div[@role='main']//div[@dir='ltr']";
+var recepientAddressLocator = "//td/span/span[@data-hovercard-id]";
